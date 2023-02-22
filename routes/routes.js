@@ -7,7 +7,6 @@ import {
 } from '../passport/localAuth.js';
 import os from 'os';
 import { logger } from '../logs/loger.js';
-import compression from 'compression';
 
 const router = Router();
 
