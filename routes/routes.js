@@ -73,7 +73,7 @@ router.get('/signup', (req, res) => {
 	const { url, method } = req;
 	logger.info(`Petición recibida por el servidor. Ruta ${method} - ${url}`);
 
-	res.render('/pages/signup.ejs');
+	res.render('pages/signUp.ejs');
 });
 
 router.post(
